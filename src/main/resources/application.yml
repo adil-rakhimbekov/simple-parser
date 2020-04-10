@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connectionTimeout: 300000
+      idleTimeout: 600000
+      maxLifetime: 1800000
+logging:
+  level:
+    root: info
+    org.hibernate: error
+    kz.viled: debug
+#file.name: parser.log
+target:
+  url: https://baza-otvetov.ru/categories/view/1/
+
